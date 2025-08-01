@@ -35,6 +35,20 @@ body{
     color: #fff;
 }
 
+/* estilização do botão Contato */
+
+.btn-contato button:hover{
+       color: black;
+    background-color: #1e8d0c;
+    box-shadow: 0 0 20px #28bf10;
+    transform: scale(1.12);
+    transition: 0.5s all ease-in-out;
+    text-shadow: #28bf10 0px 0px 4px; 
+        transition-delay: 60ms;
+        box-shadow: #28bf10 0px 0px 20px;
+    }
+
+
 h2.titulo{
    color: #fff;
    font-size: 38px;
@@ -85,15 +99,6 @@ header nav ul li{
     display:inline-block;
     padding: 0 40px;
 }
-/* estilização do botão Contato */
-
-.btn-contato button:hover{
-        background-color: #1e8d0c;
-        color: #fff;
-        transform: scale(1.12);
-        transition-delay: 60ms;
-        box-shadow: #28bf10 0px 0px 20px;
-    }
 
 
 /* ESTILO DO TOPO DO SITE */
@@ -172,7 +177,6 @@ width: 300px;
 
 /* Estilo das especialidades */
 
-/* box-shadow: 10px 20px 90px 40px #23aa0f */ 
 
 .sombreado{
     margin: 0;
@@ -206,9 +210,86 @@ section.especialidades .flex{
     font-size: 70px;
     color: #1e8d0c;
 }
-
+.especialidades .especialidades-box p{
+    text-align:left;
+}
 .especialidades .especialidades-box h3{
     font-size: 28px;
     margin: 15px 0;
 
 }
+
+/* SOBRE MIM estilização */
+
+.sombreado{
+    margin: 0;
+    box-shadow: 10px 20px 130px 40px #23aa0f;
+    margin-top: 120px;
+
+}
+section.sobre{
+    padding: 140px 4%;
+    
+}
+section.sobre .flex{
+    display: flex;
+    justify-content: center;
+align-items: center;
+gap:60px;
+
+}
+.sobre .txt-sobre{
+    color: #fff;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+
+}
+
+.sobre .txt-sobre span{
+     color: #1e8d0c;
+    font-size: 42px;
+    text-shadow: #28bf10 0px 0px 4px; 
+  
+    
+}
+
+.sobre .txt-sobre p{
+ margin: 10px 0;
+ text-align: justify;
+ line-height: 1.6;
+}
+ .sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:none;
+    background-color: #1e8d0c;
+    color: #fff;
+    font-size: 22px;
+    margin: 0 6px;
+    margin-top: 15px;
+    cursor:pointer;
+    transition: color 0.5s ease-in-out;
+ }
+
+  .sobre .txt-sobre .btn-social button:hover{
+    color: black;
+    background-color: #1e8d0c;
+    box-shadow: 0 0 20px #28bf10;
+    transform: scale(1.12);
+    transition: 0.5s all ease-in-out;
+    text-shadow: #28bf10 0px 0px 4px; 
+
+  }
+
+  .sobre .img-sobre .james-imagem{
+    width: 460px;
+    height: auto;
+    border-radius: 65px;
+  } 
+
+  
+  
