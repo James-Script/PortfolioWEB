@@ -172,10 +172,17 @@ width: 300px;
 
 /* Estilo das especialidades */
 
+/* box-shadow: 10px 20px 90px 40px #23aa0f */ 
+
+.sombreado{
+    margin: 0;
+    box-shadow: 10px 20px 130px 40px #23aa0f;
+    margin-top: 120px;
+
+}
 section.especialidades{
     padding: 40px 4%;
-    box-shadow: 10px 20px 90px 40px #23aa0f;
-    margin-top: 120px;
+    margin-top: 300px;
 }
 
 section.especialidades .flex{
