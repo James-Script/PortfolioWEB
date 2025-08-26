@@ -177,16 +177,21 @@ width: 300px;
 
 /* Estilo das especialidades */
 
-
-.sombreado{
-    margin: 0;
+/*  margin: 0;
     box-shadow: 10px 20px 130px 40px #23aa0f;
-    margin-top: 120px;
+    margin-top: 120px; */
 
+.sombreado1{
+  margin: 0;
+    box-shadow: 10px 20px 80px 40px #23aa0f;
+    margin-top: 160px;
+    
 }
+
 section.especialidades{
     padding: 40px 4%;
     margin-top: 300px;
+    image-resolution: 240px;
 }
 
 section.especialidades .flex{
@@ -199,6 +204,7 @@ section.especialidades .flex{
     margin-top: 45px;
     border-radius: 30px;
     transition: .2s;
+    margin-bottom: 130px;
 }
 
 .especialidades .especialidades-box:hover{
@@ -208,7 +214,12 @@ section.especialidades .flex{
 }
 .especialidades .especialidades-box i{
     font-size: 70px;
+    color: #fff;
+    transition: color 0.5s ease-in-out;
+}
+.especialidades-box:hover i{
     color: #1e8d0c;
+    text-shadow: #28bf10 0px 0px 4px; 
 }
 .especialidades .especialidades-box p{
     text-align:left;
@@ -221,12 +232,14 @@ section.especialidades .flex{
 
 /* SOBRE MIM estilização */
 
-.sombreado{
-    margin: 0;
-    box-shadow: 10px 20px 130px 40px #23aa0f;
-    margin-top: 120px;
-
+.sombreado2{
+ margin: 0;
+    box-shadow: 10px 20px 80px 40px #23aa0f;
+    margin-top: 60px;
 }
+
+
+
 section.sobre{
     padding: 140px 4%;
     
@@ -291,5 +304,18 @@ gap:60px;
     border-radius: 65px;
   } 
 
-  
-  
+  /* Portfólio projetos */
+
+ section.portfolio{
+    padding: 80px 4%;
+    box-shadow: 0px 0px 40px 10px #ffffff3c;
+ }
+
+ section.portfolio .flex{
+    justify-content: space-around;
+ }
+ .img-port{
+    width: 350px;
+    height: 460px;
+    background-color: #23aa0f;
+ }
